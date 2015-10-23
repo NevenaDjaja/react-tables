@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+<style>
+  .mytable {
+    border-collapse: collapse;
+    border: 1px solid #9b869c;
+    width: 500px;
+    height: 200px;
+  }
+  .mytable thead tr {
+    background-color: #D3B5D4;
+  }
+  .mytable th {
+    border-top: 1px solid #9b869c;
+    padding: 6px;
+    text-align: left;
+  }
+  .mytable td {
+    border-top: 1px solid #9b869c;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  .mytable>tbody>tr:nth-child(even) {
+    background-color: #ebedee;
+  }
+</style>
+</head>
+<body>
+  <div id='data-table'></div>
+
+  <script src="./src/bundle.js"></script>
+
+
+</body>
+</html>
+
